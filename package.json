@@ -4,8 +4,8 @@
   "description": "Website generation code for SiteSpeedTools.com",
   "main": "index.js",
   "scripts": {
-    "start": "parcel index.pug",
-    "build": "parcel build index.pug --out-dir dist --public-url ./"
+    "start": "parcel src/index.pug",
+    "build": "parcel build src/index.pug --out-dir dist --public-url ./"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^6.4.0",

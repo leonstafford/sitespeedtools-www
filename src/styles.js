@@ -1,5 +1,6 @@
-@tailwind base;
-@tailwind components;
+import { css } from '@twind/core';
+
+const styles = css`
 
 .site-title {
   text-4xl font-bold;
@@ -108,3 +109,7 @@ footer {
   }
 }
 
+@import '~@fortawesome/fontawesome-free/css/all.min.css';
+`;
+
+export default styles;

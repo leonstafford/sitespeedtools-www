@@ -1,26 +1,22 @@
 doctype html
 html(lang="en")
   head
-    meta(charset="utf-8")
-    meta(name="viewport" content="width=device-width, initial-scale=1")
+    meta(charset="UTF-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible" content="ie=edge")
     title Site Speed Tools
+    meta(name="description" content="Veteran of the WordPress performance space, Leon brings you the Site Speed Tools WordPress plugin!")
     link(rel="stylesheet" href="styles.css")
+    script(type="module")
+      import { apply } from '@twind/core';
+      import {styles } from './styles.js';
+      apply(css.default);
   body
-    header
-      h1.site-title Site Speed Tools
-      p.site-description Veteran of the WordPress performance space, Leon brings you the Site Speed Tools WordPress plugin!
-      a.btn(href="#") Analyze and Fix Site Speed
-    section.features
-      h2 Features
-      ul
-        li Analyze and fix the most critical issues slowing down your WordPress site
-        li Get actionable recommendations to improve site speed
-        li Monitor site speed and performance over time
-    section.cta
-      h2 Get Started
-      a.btn(href="#") Install Site Speed Tools WordPress plugin
-      p Or download from our GitHub repository
-      ul.social-icons
+    main
+      h1 Site Speed Tools
+      p Veteran of the WordPress performance space, Leon brings you the Site Speed Tools WordPress plugin!
+      a(href="#") Analyse and fix the most critical issues slowing down your WordPress site with Site Speed Tools
+      ul.social-links
         li
           a(href="#")
             i.fab.fa-github
@@ -31,6 +27,5 @@ html(lang="en")
           a(href="#")
             i.fab.fa-wordpress
     footer
-      p Contact us at
-      a(href="mailto:support@sitespeedtools.com") support@sitespeedtools.com
+      p Contact us: support@sitespeedtools.com
 
