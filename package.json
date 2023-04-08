@@ -1,0 +1,16 @@
+{
+  "name": "sitespeedtools-www",
+  "version": "1.0.0",
+  "description": "Site Speed Tools website",
+  "scripts": {
+    "start": "http-server dist",
+    "build": "node_modules/html-minifier-terser/cli.js index.html -o dist/index.html --collapse-whitespace --remove-comments --minify-css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Unlicense",
+  "devDependencies": {
+    "html-minifier-terser": "^7.1.0"
+  }
+}
+
